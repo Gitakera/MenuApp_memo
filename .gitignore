@@ -1,0 +1,46 @@
+# 📦 Dépendances
+/node_modules/
+package-lock.json
+yarn.lock
+
+# 🔧 Configuration / cache
+.env
+.env.*
+.vscode/
+*.iml
+*.swp
+*.tmp
+*.log
+
+# 🛠️ Build Android
+/android/.gradle/
+/android/build/
+/android/app/build/
+
+# 🛠️ Build iOS
+/ios/build/
+/ios/Pods/
+/ios/DerivedData/
+/ios/.DS_Store
+
+# 🧪 Tests
+coverage/
+jest/
+
+# 🔄 Cache Metro, Babel, etc.
+.cache/
+.expo/
+.expo-shared/
+babel-cache/
+metro-cache/
+.buckd/
+.tmp/
+__generated__/
+
+# 💻 macOS
+.DS_Store
+
+# 🔍 Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
